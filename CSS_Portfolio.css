@@ -30,4 +30,5 @@ span {
 nav ul li {
     list-style-type: none;
     display: inline-block;
+    padding: 10px 20px;
 }
