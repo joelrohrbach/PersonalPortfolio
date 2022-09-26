@@ -1,0 +1,33 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans';
+    box-sizing: border-box;
+}
+
+.first {
+    background-color: greenyellow;
+    opacity: 0.5;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 43px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color:rgb(22, 20, 20);
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: green
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
