@@ -32,3 +32,19 @@ nav ul li {
     display: inline-block;
     padding: 10px 20px;
 }
+nav ul li a{
+    color:rgb(22, 20, 20);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: green;
+    transition: 0.4s;
+}
+nav a{
+    color:rgb(22, 20, 20);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
