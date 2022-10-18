@@ -5,18 +5,19 @@
     box-sizing: border-box;
 }
 
-/*.first {
-    background-color: greenyellow;
-    opacity: 0.5;
-}*/
+.first { /*Placeholder für parallax JPGS */
+    background-color: rgba(40, 41, 40, 0.616);
+    height: 100vh;
+    width: 100%;
+}
 
-.first {
+/*.first {
     height: 100vh;
     width: 100%;
     background-image: url(../Portfolio/green_WP_Test.jpg);
     background-size: cover;
     background-position: center;
-}
+}*/
 
 nav{
     display: flex;
@@ -45,10 +46,15 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    padding: 6px 15px;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
 }
-nav ul li a:hover{
+nav ul li a:hover, nav ul li a.active{
     color: #006600;
     transition: 0.4s;
+    background-color: beige;
 }
 nav a{
     color:rgb(22, 20, 20);
@@ -92,6 +98,8 @@ h4{
     font-size: 20px;
     letter-spacing: 2px;
 }
+    /* <---Newsletter---> */
+
 .Newsletter form{
     width:380px;
     max-width: 100%;
@@ -118,6 +126,9 @@ h4{
     top: 6px;
     right: 6px;
 }
+
+ /* <---About Me---> */
+
 .about_me{
     width: 100%;
     padding:100px 0px;
@@ -127,3 +138,71 @@ h4{
     height: auto;
     width: 430px;
 }
+
+/* <---- CV ----> *//*
+
+:root {
+  --primary-color: #fff;
+  --background-color: #212121;
+  --font: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background-color);
+  font-family: var(--font);
+  display: flex;
+  justify-content: center;
+}
+
+/* Timeline Container *//*
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Outer Layer with the timeline border *//*
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Card container *//*
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  background: #333;
+  color: gray;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+/* Information about the timeline *//*
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title of the card *//*
+.title {
+  color: orangered;
+  position: relative;
+}
+
+/* Timeline dot  *//*
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid orangered;
+} 
