@@ -8,7 +8,7 @@
 .first { /*Placeholder für parallax JPGS */
     background-color: rgba(40, 41, 40, 0.616);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 /*.first {
@@ -23,14 +23,15 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 43px;
+    padding-top: 5.375vw;
     padding-left: 8%;
     padding-right: 8%;
+    width:100vw;
 }
 .logo {
     color:rgb(22, 20, 20);
-    font-size: 40px;
-    letter-spacing: 1px;
+    font-size: 5vw;
+    letter-spacing: 0.1vw;
     cursor: pointer;
 }
 span {
@@ -39,17 +40,20 @@ span {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1.25vw 2.5vw;
+    width:10vw;
 }
 nav ul li a{
     color:rgb(22, 20, 20);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 10vw;
     text-transform: capitalize;
-    padding: 6px 15px;
+    padding: 0.6vw 1.5vw;
     color:black;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1vw;
+    width:1vw;
+
 }
 nav ul li a:hover, nav ul li a.active{
     color: #006600;
@@ -86,16 +90,16 @@ nav a{
 h1{
     color:rgb(22, 20, 20);
     margin: 20px 0px 20px;
-    font-size: 50px;
+    font-size: 6.25vw;
 }
 h3{
     color: rgb(22, 20, 20);
-    font-size: 15px;
-    margin-bottom: 50px;
+    font-size: 1.825vw;
+    margin-bottom: 6.25vw;
 }
 h4{
     color: rgb(22, 20, 20);
-    font-size: 20px;
+    font-size: 2.5vw;
     letter-spacing: 2px;
 }
     /* <---Newsletter---> */
@@ -139,7 +143,7 @@ h4{
     width: 430px;
 }
 
-/* <---- CV ----> *//*
+/* <---- CV ----> */
 
 :root {
   --primary-color: #fff;
@@ -147,31 +151,20 @@ h4{
   --font: sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  background: var(--background-color);
-  font-family: var(--font);
-  display: flex;
-  justify-content: center;
-}
-
-/* Timeline Container *//*
+/* Timeline Container */
 .timeline {
   background: var(--primary-color);
   margin: 20px auto;
   padding: 20px;
 }
 
-/* Outer Layer with the timeline border *//*
+/* Outer Layer with the timeline border */
 .outer {
   border-left: 2px solid #333;
 }
 
-/* Card container *//*
+/* Card container */
 .card {
   position: relative;
   margin: 0 0 20px 20px;
@@ -182,20 +175,20 @@ body {
   max-width: 400px;
 }
 
-/* Information about the timeline *//*
+/* Information about the timeline */
 .info {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Title of the card *//*
+/* Title of the card */
 .title {
   color: orangered;
   position: relative;
 }
 
-/* Timeline dot  *//*
+/* Timeline dot  */
 .title::before {
   content: "";
   position: absolute;
