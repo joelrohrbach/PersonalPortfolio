@@ -1,16 +1,92 @@
-* { 
+* {
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    box-sizing:border-box;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    background:linear-gradient(darkkhaki, palegoldenrod)
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display:flex;
+    justify-content: space-between;
+    z-index:10000;
+    align-items: center;
+}
+header.logo{
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.aktiv{
+    background: #fff;
+    color:darkkhaki;
+}
+
+section{
+    position: relative;
+    width:100%;
+    height:100vh;
+    padding: 100px;
+}
+
+section img{
+    position:absolute;
+    top:0;
+    width: 100%;
+    left:0;
+    height: 100%;
+    object-fit: cover;
+}
+
+section img#Sand1{
+
+}
+
+
+
+/* { 
     padding: 0;
     margin: 0;
     font-family: 'Lucida Sans';
     box-sizing: border-box;
 }
-
-.first { /*Placeholder für parallax JPGS */
+*/ /*
+.first { /*Placeholder für parallax JPGS 
     background-color: rgba(40, 41, 40, 0.616);
     height: 100vh;
-    width: 100vw;
-}
-
+    width: 100vw; /*
 /*.first {
     height: 100vh;
     width: 100%;
@@ -18,7 +94,7 @@
     background-size: cover;
     background-position: center;
 }*/
-
+/*
 nav{
     display: flex;
     align-items: center;
@@ -103,7 +179,7 @@ h4{
     letter-spacing: 2px;
 }
     /* <---Newsletter---> */
-
+/*
 .Newsletter form{
     width:380px;
     max-width: 100%;
@@ -132,7 +208,7 @@ h4{
 }
 
  /* <---About Me---> */
-
+/*
 .about_me{
     width: 100%;
     padding:100px 0px;
@@ -144,7 +220,7 @@ h4{
 }
 
 /* <---- CV ----> */
-
+/*
 :root {
   --primary-color: #fff;
   --background-color: #212121;
@@ -153,6 +229,7 @@ h4{
 
 
 /* Timeline Container */
+/*
 .timeline {
   background: var(--primary-color);
   margin: 20px auto;
@@ -160,11 +237,13 @@ h4{
 }
 
 /* Outer Layer with the timeline border */
+/*
 .outer {
   border-left: 2px solid #333;
 }
 
 /* Card container */
+/*
 .card {
   position: relative;
   margin: 0 0 20px 20px;
@@ -176,6 +255,7 @@ h4{
 }
 
 /* Information about the timeline */
+/*
 .info {
   display: flex;
   flex-direction: column;
@@ -183,12 +263,14 @@ h4{
 }
 
 /* Title of the card */
+/*
 .title {
   color: orangered;
   position: relative;
 }
 
 /* Timeline dot  */
+/*
 .title::before {
   content: "";
   position: absolute;
