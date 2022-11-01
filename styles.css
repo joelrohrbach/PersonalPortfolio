@@ -14,7 +14,7 @@ header{
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
+    width: 100vh;
     padding: 30px 100px;
     display:flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ header ul li a{
     text-decoration: none;
     padding:6px 15px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 10vh;
 }
 
 header ul li a:hover,
@@ -56,7 +56,7 @@ header ul li a.aktiv{
 
 section{
     position: relative;
-    width:100%;
+    width:100vh;
     height:100vh;
     padding: 100px;
 }
@@ -64,9 +64,9 @@ section{
 section img{
     position:absolute;
     top:0;
-    width: 100%;
+    width: 100vh;
     left:0;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
 }
 
