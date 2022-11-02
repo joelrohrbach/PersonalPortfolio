@@ -11,7 +11,8 @@
 </head>
 <body>
     <header>
-      <a href="#" class="logo">Logo</a>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle"></div>
       <ul>
         <li><a href=# class="aktiv">Home</a></li>
         <li><a href=#>About</a></li>
@@ -33,6 +34,18 @@
       <img src="ebene9_wolke.png" id="Wolke2">
       <img src="ebene10_himmel.png" id="Himmel">
     </section>
+
+    <div class="sec">
+      <h2>blabalbablabalalbabalab</h2>
+      <p>hier text jajajaajajajjajaaj</p>
+    </div>
+
+    <script>
+      const toggleMenu = document.querySelector('.toggle');
+      toggleMenu.onclick =function(){
+        toggleMenu.classList.toggle('aktiv');
+      }
+    </script>
   </body>
 </html>
 
