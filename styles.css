@@ -21,7 +21,7 @@ header{
     z-index:10000;
     align-items: center;
 }
-header.logo{
+header a.logo{
     color:#fff;
     font-weight: 700;
     text-decoration: none;
@@ -59,6 +59,8 @@ section{
     width:100vh;
     height:100vh;
     padding: 100px;
+    display:flex;
+    justify-items: center;
 }
 
 section img{
@@ -70,11 +72,19 @@ section img{
     object-fit: cover;
 }
 
-section img#Sand1{
+section img#Sand1{ 
+    z-index: 10;
 
 }
 
 
+#text{
+    position: absolute;
+    color: darkkhaki;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
 
 /* { 
     padding: 0;
