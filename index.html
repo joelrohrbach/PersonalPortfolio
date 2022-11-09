@@ -13,7 +13,7 @@
     <header>
       <a href="#" class="logo">Portfolio</a>
       <div class="toggle"></div>
-      <ul>
+      <ul class="navigation">
         <li><a href=# class="aktiv">Home</a></li>
         <li><a href=#>About</a></li>
         <li><a href=#>Hobbys</a></li>
@@ -41,9 +41,31 @@
     </div>
 
     <script>
+
+      let Sand1 = document.getElementById("Sand1");
+      let Sand2 = document.getElementById("Sand2");
+      let Pyramide1 = document.getElementById("Pyramide1");
+      let Leute = document.getElementById("Leute");
+      let Wolke1 = document.getElementById("Wolke1");
+      let Sand3 = document.getElementById("Sand3");
+      let Pyramide2 = document.getElementById("Pyramide2");
+      let Sand4 = document.getElementById("Sand4");
+      let Wolke2 = document.getElementById("Wolke2");
+      let Himmel = document.getElementById("Himmel");
+      let text = document.getElementById("text");
+      let header = document.getElementById("header")
+
+      window.addEventListener("scrollen", function(){
+        let value = window.scrollY;
+        Sand1.style.bottom = value * 0.05 + "%";
+      })
+
+
       const toggleMenu = document.querySelector('.toggle');
+      const navigation = document.querySelector(.navigation);
       toggleMenu.onclick =function(){
         toggleMenu.classList.toggle('aktiv');
+        navigation.classList.toggle('aktiv'); 
       }
     </script>
   </body>
