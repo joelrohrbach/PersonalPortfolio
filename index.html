@@ -57,7 +57,21 @@
 
       window.addEventListener("scrollen", function(){
         let value = window.scrollY;
-        Sand1.style.bottom = value * 0.05 + "%";
+        Sand1.style.bottom = value * -0.05 + "px";
+        Sand2.style.bottom = value * -0.01 + "px";
+        Pyramide1.style.bottom = value * -0.01 + "px";
+        Leute.style.bottom = value * -0.01 + "px";
+        Sand3.style.bottom = value * -0.01 + "px";
+        Pyramide2.style.bottom = value * -0.01 + "px";
+        Sand4.style.bottom = value * -0.01 + "px";
+
+        Himmel.style.bottom = value * 0.5 + "%";
+        Wolke1.style.bottom = value * 0.25 + "%";
+        Wolke2.style.bottom = value * 0.25 + "%";
+
+        text.style.bottom = value * 0.01 + "px";
+        text.style.bottom = value * 0.01 + "px";
+        header.style.bottom = value * -0.01 + "px";
       })
 
 
@@ -68,6 +82,19 @@
         navigation.classList.toggle('aktiv'); 
       }
     </script>
+
+    <section class = "Kontaktformular">
+      <div class = "Content">
+        <h2>Kontaktiere mich</h2>
+        <p> blaslaaskslkaselaalsmdlasdmlasdalsdasldasdasld</p>
+      </div>
+      <div class = "Container">
+        <div class = "Kontaktinfo"></div>
+        <div class = "Kontaktform"></div>
+      </div>
+    </section>
+
+    </div>
   </body>
 </html>
 
