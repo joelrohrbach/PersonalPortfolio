@@ -238,15 +238,140 @@ section img#Sand2{
 .Container .Kontaktinfo{
     width: 50%;
     display: flex;
+    flex-direction: column;
     background: rgb(238, 245, 252);
-    min-height: 500px;
 }
+.Container .Kontaktinfo .Box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+.Container .Kontaktinfo .Box .Icon{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(238, 245, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    transition: 0.5s;
+}
+.Container .Kontaktinfo .Box:hover .Icon{
+    background: rgb(172, 166, 83);
+    color: rgb(238, 245, 252);
+}
+.Container .Kontaktinfo .Box .text1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: rgb(238, 245, 252);
+    font-weight: 300;
+}
+.Container .Kontaktinfo .Box .text1 h2{
+    font-weight: 500;
+    color: rgb(172, 166, 83);
+}
+.Container .Kontaktinfo .txt{
+    color: rgb(238, 245, 252);
+    margin-top: 50px;
+    font-weight: 500;
+    padding-left: 10px;
+    border-left: 50px solid rgb(172, 166, 83);
+    line-height: 1em;
+}
+.sci{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+.sci li{
+    list-style: none;
+
+}
+.sci li a{
+    color: rgb(238, 245, 252);
+    font-size: 2em;
+    transition: 0.5s;
+}
+.sci li a:hover{
+    color: rgb(172, 166, 83);
+}
+
 .Container .Kontaktform{
     position: relative;
     width: 40%;
     background-color: rgb(238, 245, 252);
-    min-height: 500px;
+    min-height: 100px;
+    padding: 60px;
 }
+.Container .Kontaktform h2{
+    font-size: 2em;
+    color:#333;
+    font-weight: 500;
+}
+.Container .Kontaktform .Inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.Container .Kontaktform .Inputbox input,
+.Container .Kontaktform .Inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.Container .Kontaktform .Inputbox span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color:rgb(172, 166, 83);
+    transition: 0.5s;
+}
+.Container .Kontaktform .Inputbox input:focus ~ span,
+.Container .Kontaktform .Inputbox textarea:focus ~ span,
+.Container .Kontaktform .Inputbox input:valid ~ span,
+.Container .Kontaktform .Inputbox textarea:valid ~ span{
+    color: rgb(172, 166, 83);
+    font-size: 0.9em;
+    transform: translateY(-20px);
+}
+.Container .Kontaktform .Inputbox input[type= "submit"]{
+    width: 100px;
+    background: rgb(172, 166, 83);
+    color: rgb(238, 245, 252);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+@media (max-width: 991px){
+    .Kontaktformular{
+        padding: 50px;
+    }
+    .Container{
+        flex-direction: column;
+    }
+    .Container .Kontaktinfo,
+    .Container .Kontaktform{
+        width: 100%;
+    }
+    .Container .Kontaktform{
+        padding: 50px 30px;
+    }
+}
+
 /* { 
     padding: 0;
     margin: 0;
