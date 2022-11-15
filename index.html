@@ -55,10 +55,11 @@
       let text = document.getElementById("text");
       let header = document.getElementById("header")
 
-      window.addEventListener("scrollen", function(){
+      
+    window.addEventListener("scrollen", function(){
         let value = window.scrollY;
-        Sand1.style.bottom = value * -0.05 + "px";
-        Sand2.style.bottom = value * -0.01 + "px";
+        Sand1.style.bottom = value * -0.55 + "px";
+        Sand2.style.bottom = value * 1 + "px";
         Pyramide1.style.bottom = value * -0.01 + "px";
         Leute.style.bottom = value * -0.01 + "px";
         Sand3.style.bottom = value * -0.01 + "px";
@@ -120,7 +121,7 @@
           </ul>
         </div>
 
-        <div class = "Kontaktform"></div>
+        <div class = "Kontaktform">
         <form>
           <h2>Nachricht senden</h2>
           <div class = "Inputbox">
@@ -139,6 +140,7 @@
             <input type = "submit" value="Senden">
           </div>
         </form>
+        </div>
       </div>
     </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
