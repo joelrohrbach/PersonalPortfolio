@@ -25,9 +25,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 //qualifikation//
 
-const tabs = document.querySelectorAll('[data-target]'), tabContents = document.querySelectorAll('[data-content]')
+const   tabs = document.querySelectorAll('[data-target]'),    
+        tabContents = document.querySelectorAll('[data-content]')
 
-tabs.forEach(tab => {
+tabs.forEach(tab =>{
     tab.addEventListener('click',() =>{
         const target = document.querySelector(tab.CDATA_SECTION_NODE.target)
 
