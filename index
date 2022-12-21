@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- Unicons -->
+
+            <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+            <!-- Swiper -->
+
+            <!-- CSS -->
+            <link rel="stylesheet" href="styles.css">
+
+            <titel>Online-Portfolio</titel>
+        </head>
+        <body>
+
+            <!-- Header -->
+            <header class="header" id="header">
+                <nav class="nav container">
+                    <a href="#" class="nav__logo">
+                        Joël Jannik Sven Rohrbach
+                    </a>
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list grid">
+                            <li class="nav__item">
+                                <a href="#home" class="nav__link active-link">
+                                    <i class="uil uil-home nav__icon"></i> Home
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">
+                                    <i class="uil uil-user nav__icon"></i> About Me
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#qualification" class="nav__link">
+                                    <i class="uil uil-suitcase nav__icon"></i>Qualifikationen
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="contact" class="nav__link">
+                                    <i class="uil uil-message nav__icon"></i> Contact Me
+                                </a>
+                            </li>
+                        </ul>
+                        <i class="uil uil-times nav__close" id="nav-close"></i>
+                    </div>
+                    <div class="nav__btns">
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class="uil uil-apps"></i>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <main class="main">
+                
+                <!--home-->
+                <section class="home section" id="home">
+                    <div class="home__container container grid">
+                        <div class="home__content grid">
+                            <div class="home__social">
+                                <a href="https://linkedin.com/" target="_blank" class="home__social-icon">
+                                    <i class="uil uil-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/" target="_blank" class="home__social-icon">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="https://facebook.com/" target="_blank" class="home__social-icon">
+                                    <i class="uil uil-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="home__img">
+                                <svg class= "home__blob" id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                                    <mask id="mask0" mask-type="alpha">
+                                        <path fill="#050505" d="M379,301Q362,362,301,389.5Q240,417,155.5,413Q71,409,40,324.5Q9,240,71,186.5Q133,133,186.5,88.5Q240,44,300.5,81.5Q361,119,378.5,179.5Q396,240,379,301Z" />
+                                    </mask>
+                                    <g mask ="url(#mask0)">
+                                        <path fill="#050505" d="M379,301Q362,362,301,389.5Q240,417,155.5,413Q71,409,40,324.5Q9,240,71,186.5Q133,133,186.5,88.5Q240,44,300.5,81.5Q361,119,378.5,179.5Q396,240,379,301Z" />
+                                        <image class= "home__blob-img" xlink:href="alpaka_Test.jpg"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="home__data">
+                                <h1 class="home__title">Joël Jannik Sven Rohrbach</h1>
+                                <h class="home__subtitle"> Student an der BFH</h>
+                                <p class="home__description">Wirtschaftsinformatik</p>
+                                <a href="#contact" class="button button--flex">
+                                    Kontaktiere mich<i class="uil uil-message button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse home__scroll-mouse"> </i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                        </div>
+                    </div>
+                </section>
+                <!--about-->
+                <section class="about section" id="about">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Meine Vorstellung</span>
+
+                    <div class="about__container container grid">
+                        <div class="about__data">
+                            <p class="about__description">Student an der BFH Marzili in der Fachrichtung Wirtschaftsinformatik.</p>
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">5.</span>
+                                    <span class="about__info-name">Semester <br> an der BFH</span>
+                                </div>
+                                <div>
+                                    <span class="about__info-title">7</span>
+                                    <span class="about__info-name">Jahre <br> Wochenend-Verkäufer</span>
+                                </div>
+                                <div>
+                                    <span class="about__info-title">Maturität</span>
+                                    <span class="about__info-name">Freiburg <br> St Croix</span>
+                                </div>
+                            </div>
+
+                            <div class="about__buttons">
+                                <a href="" class="button button--flex"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--qualification-->
+
+                <section class="qualification section" id="qualification">
+                    <h2 class="section__title">Qualifikationen</h2>
+                    <span class="section__subtitle">Meine persönlichen Erfahrungen</span>
+
+                    <div class="qualification__container container">
+                        <div class="qualification_tabs">
+                            <div class="qualification__button button--flex qualification__active" data-target="#education">
+                                <i class="uil uil-graduation-cap qualification__icon"></i>
+                                Ausbildung
+                            </div>
+                            <div class="qualification__button button--flex" data-target="#work">
+                                <i class="uil uil-suitcase qualification__icon"></i>
+                                Arbeit
+                            </div>
+                        </div>
+
+                        <div class="qualification__sections">
+                            <!--schule-->
+                            <div class="qualification__content qualification__active" data-content id="education">
+
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Primarschule</h3>
+                                        <span class="qualification__subtitle">Courtepin, Freiburg</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2004 - 2010
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+
+                                <div class="qualification__data">
+                                    <div></div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <!--<span class="qualification__line"></span>-->
+                                    </div>
+                                    <div>
+                                        <h3 class="qualification__title">Sekundarschule</h3>
+                                        <span class="qualification__subtitle">Fribourg / Freiburg</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2010 - 2013
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Gymnasium St. Croix</h3>
+                                        <span class="qualification__subtitle">Fribourg / Freiburg</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2013 - 2018
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Universität</h3>
+                                        <span class="qualification__subtitle">Fribourg / Freiburg</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2018 - 2019
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+
+                                <div class="qualification__data">
+                                    <div></div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <!--<span class="qualification__line"></span>-->
+                                    </div>
+                                    <div>
+                                        <h3 class="qualification__title">Fachhochschule Bern</h3>
+                                        <span class="qualification__subtitle">Marzili, Bern</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2020 - 2022
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--Arbeit-->
+                            <div class="qualification__content" data-content id="work">
+
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Denner</h3>
+                                        <span class="qualification__subtitle">Courtepin, Freiburg</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2015 - 2022
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+
+                                <div class="qualification__data">
+                                    <div></div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <!--<span class="qualification__line"></span>-->
+                                    </div>
+                                    <div>
+                                        <h3 class="qualification__title">PS Solutions AG / H<sub>2</sub>O Solutions</h3>
+                                        <span class="qualification__subtitle">Düdingen, Freiburg</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            2020 - 2022
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- contact me-->
+                <section class="contact section" id="contact">
+                    <h2 class="section__title">Kontaktiere Mich</h2>
+                    <span class="section__subtitle">Angaben</span>
+
+                    <div class="contact__container container grid">
+                        <div>
+                            <div class="contact__information">
+                                <i class="uil uil-phone contact__icon"></i>
+                                <div>
+                                    <h3 class="contact__title">Ruf mich an</h3>
+                                    <span class="contact__subtitle">079-582-49-60</span>
+                                </div>
+                            </div>
+
+                            <div class="contact__information">
+                                <i class="uil uil-envelope contact__icon"></i>
+                                <div>
+                                    <h3 class="contact__title">Email</h3>
+                                    <span class="contact__subtitle">rohrbachj@gmx.ch</span>
+                                </div>
+                            </div>
+
+                            <div class="contact__information">
+                                <i class="uil uil-map-marker contact__icon"></i>
+                                <div>
+                                    <h3 class="contact__title">Ort</h3>
+                                    <span class="contact__subtitle">Wallenried - Freiburg</span>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="" class="contact__form grid">
+                            <div class="contact__inputs grid">
+                                <div class="contact_content">
+                                    <label for="" class="contact__label">Name</label>
+                                    <input type="text" class="contact__input">
+                                </div>
+
+                                <div class="contact_content">
+                                    <label for="" class="contact__label">Email</label>
+                                    <input type="email" class="contact__input">
+                                </div>
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact__label">Anliegen</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact__label">Nachricht</label>
+                                <textarea name="" id="" cols="0" rows="6" class="contact__input"></textarea>
+                            </div>
+
+                            <div>
+                                <a href="" class="button button--flex">
+                                    Nachricht senden
+                                    <i class="uil uil-message button__icon"></i>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+        
+            </main>
+
+
+            <!-- scroll top -->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="uil uil-arrow-up scrollup__icon"></i>
+            </a>
+
+            <!-- main js -->
+
+            <script scr="main.js"></script>
+
+        </body>
+    </html>
